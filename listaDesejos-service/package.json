@@ -1,0 +1,24 @@
+{
+  "name": "listadesejos-service",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "JULIO CESAR RA-042401",
+  "description": "Desafio-Amigo-Secreto",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jucsilva1/Solucao-para-o-Desafio-Amigo-Secreto-Modulo-IX-UNIARAXA.git"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.1"
+  },
+  "scripts": {
+    "dev": "nodemon ./src/index.js",
+    "start": "node index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  }
+}
